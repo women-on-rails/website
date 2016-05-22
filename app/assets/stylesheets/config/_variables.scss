@@ -2,35 +2,37 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
-$base-font: "Open Sans", "Helvetica", "sans-serif";
-$header-font: "Raleway", "Helvetica", "sans-serif";
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:500,700);
+$base-font: "Work Sans", "Helvetica", "sans-serif";
 
 // Local fonts (uncomment following lines)
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+@font-face {
+  font-family: "Intro Black";
+  src: font-url('/assets/intro_black.eot');
+  src: font-url('/assets/intro_black.eot?#iefix') format('embedded-opentype'),
+       font-url('/assets/intro_black.woff') format('woff'),
+       font-url('/assets/intro_black.ttf') format('truetype')
+}
+$header-font: "Intro Black";
 
 // Font-size and line-height
-$base-size: 16px;
+$base-size: 14px;
 $base-height: 1.4;
 
 /* -------------------------------------
  * Colors
  * ------------------------------------- */
 // Scheme
-$brand-color: #D23333;
+$brand-color: #50E3C2;
 
 $red: #EE5F5B;
 $blue: #469AE0;
 $yellow: #FDB631;
 $orange: #E67E22;
 $green: #32B796;
+$dark-grey: #4A4A4A;
+$light-grey: #F5F5F5;
+
 
 // Gray scale
 $gray-darker:  lighten(#000, 13.5%); // #222

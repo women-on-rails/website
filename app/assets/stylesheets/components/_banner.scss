@@ -1,0 +1,27 @@
+/* code your banner design here */
+.banner {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  padding: 5em 0 15em 0;
+  h2 {
+    font-family: $base-font;
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
+
+.banner-content {
+  position: relative;
+  color: #fff;
+}
+
+.bg-filter {
+  position: absolute;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+}
+

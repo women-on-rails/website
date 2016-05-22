@@ -1,59 +1,101 @@
-<div class="row" id='about'>
-	<div class="col-md-2">
-		<%= image_tag("logo_325x117px.png", {class: 'logo'}) %>
-	</div>
-	<div class="col-md-8"></div>
-	<div class="col-md-2">À propos</div>
-</div>
+<div class="home">
+  <!-- Banner -->
+  <div class="banner" style='background-image: url("<%= image_url("banner-home.jpg") %>")'>
+    <div class="bg-filter"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="banner-content">
+            <h1>Envie de vous mettre au code ?</h1>
+            <h2><a class="underline extra-underline" href="http://www.meetup.com/fr-FR/Women-On-Rails/">Il n’est jamais trop tard !</a></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div class='head_image'>
-	<%= image_tag("twitter-cover.jpg", {class: 'twitter-cover'}) %>
-</div>
+  <div class="container extra-padded">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+        <h2 class="text-center">Apprenez à créer votre site web avec Ruby on Rails</h2>
+      </div>
+    </div>
 
-<div id='learn_to_code'>
-	<div class="row">
-		<div class="col-md-12">APPRENEZ À CRÉER VOTRE SITE WEB AVEC RUBY ON RAILS ET À LE METTRE EN LIGNE</div>
-	</div>
-	<div class="row">
-		<div class="col-md-4">
-			DÉBUTANTES
-			Pour toutes les femmes, débutantes ou fausses débutantes
-		</div>
-		<div class="col-md-4">
-			7 LUNDIS
-			Une session de 7 lundis soirs de 19h à 21h du 30 Mai au 11 Juillet 2016
-		</div>
-		<div class="col-md-4">
-			MENTORS
-			30min de théorie / 1h30 de pratique, accompagnées par des mentors
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12">Inscrivez-vous !</div>
-	</div>
-</div>
+    <div class="row padded">
+      <div class="col-xs-12 col-sm-4">
+        <div class="text-center">
+          <%= image_tag('icon-beginners.svg') %>
+          <h3>Débutantes</h3>
+          <p>Pour toutes les femmes, débutantes ou fausses débutantes</p>
+        </div>
+      </div>
 
-<div class='row' id='program'>
-	<div class="col-md-3"></div>
-	<div class="col-md-6">program</div>
-	<div class="col-md-3"></div>
-</div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="text-center">
+          <%= image_tag('icon-mondays.svg') %>
+          <h3>7 lundis</h3>
+          <p>Une session de 7 lundis soirs de 19h à 21h du 30 mai au 11 juillet</p>
+        </div>
+      </div>
 
-<div class='blocked'>
-	ÇA COINCE ?
-	Vous etes déjà lancée sur un projet et vous vous heurtez à des résistances ?
-	Des mentors peuvent vous donner un coup de pouce directement sur notre channel Slack #help
-	Prochaine session déblocage:
-	Jeudi XX Mai à partir de 21h
-</div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="text-center">
+          <%= image_tag('icon-mentors.svg') %>
+          <h3>Mentors</h3>
+          <p>30min de théorie / 1h30 de pratique, accompagnées par des mentors</p>
+        </div>
+      </div>
+    </div>
 
-<div class='row footer'>
-	<div class="col-md-2"></div>
-	<div class="col-md-2">Envie de nous aider ?</div>
-	<div class="col-md-1">Contactez-nous</div>
-	<div class="col-md-1">Remerciements</div>
-	<div class="col-md-1"><%= link_to 'Twitter', 'https://twitter.com/womenonrails' %></div>
-	<div class="col-md-1"><%= link_to 'Github', 'https://github.com/women-on-rails' %></div>
-	<div class="col-md-2">Mentions legales</div>
-	<div class="col-md-2"></div>
+    <p class="text-center "><a class="underline extra-link" href="http://www.meetup.com/Women-On-Rails/">inscrivez-vous !</a></p>
+
+  </div>
+
+  <div class="bg-grey">
+    <div class="container extra-padded">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="text-center">Au programme</h2>
+
+          <ul class="list-unstyled list-inline steps">
+            <li class="one">
+              <h3>Meet ‘n greet</h3>
+              <p>lundi 30 mai | <a class="underline" href="#">inscrivez-vous</a></p>
+            </li>
+
+            <li class="two">
+              <h3>Créez votre page web</h3>
+              <p>lundi 6 juin | <a class="underline" href="#">inscrivez-vous</a></p>
+            </li>
+
+            <li class="three">
+              <h3>Intégration avec Rails</h3>
+              <p>lundi 13 juin | <a class="underline" href="#">inscrivez-vous</a></p>
+            </li>
+
+            <li class="four">
+              <h3>Améliorez vos vues avec Ruby</h3>
+              <p>lundi 20 juin | <a class="underline" href="#">inscrivez-vous</a></p>
+            </li>
+
+            <li class="five">
+              <h3>Créez votre base de données </h3>
+              <p>lundi 27 juin | <a class="underline" href="#">inscrivez-vous</a></p>
+            </li>
+
+            <li class="six">
+              <h3>Stockez des données via Rails</h3>
+              <p>lundi 4 juillet | <a class="underline" href="#">inscrivez-vous</a></p>
+            </li>
+
+            <li class="seven">
+              <h3>Déployez sur heroku</h3>
+              <p>lundi 11 juillet | <a class="underline" href="#">inscrivez-vous</a></p>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
