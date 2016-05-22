@@ -7,7 +7,32 @@
 
     <div class="navbar-wor-pusher"></div>
 
-    <a class="navbar-wor-item underline" href="#">À propos</a>
+    <a class="navbar-wor-item underline" data-toggle="modal" data-target="#menuModal" href="#">À propos</a>
 
   </div>
 </nav>
+
+<!-- FULLSCREEN MODAL CODE (.fullscreen) -->
+<div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header" style="border:0;">
+          <a href="#" class="close" data-dismiss="modal" aria-hidden="true"><%= image_tag('icon-close.svg')%></a>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+                <h1>à propos</h1>
+                <h2>Vous êtes une femme et vous avez décidé de coder ? Vous pensez que c’est une compétence indispensable aujourd’hui et vous souhaitez progresser ?</h2>
+                <p>Women On Rails est un groupe féministe, LGBT-friendly et à majorité féminine qui a pour but de découvrir, s’entraider et pratiquer régulièrement les rudiments informatiques et particulièrement le langage Ruby et son framework Rails. Venez comme vous êtes, avec votre ordinateur portable, quel que soit votre niveau et retrouvez d’autres apprenantes motivées, soutenues par des mentors bienveillants !
+                </p>
+
+                <p>Vous souhaitez être mentor ou nous prêter vos locaux ? <a class="underline underline-white" href="mailto:hello@womenonrails.com">Contactez-nous</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.fullscreen -->
