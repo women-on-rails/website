@@ -5,7 +5,6 @@ gem 'rails', '4.2.5.1'
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
 gem 'redis'
-
 gem 'sass-rails'
 gem 'jquery-rails'
 gem 'uglifier'
@@ -29,4 +28,5 @@ end
 group :production do
   gem 'rails_12factor'
   gem 'pg'
+  gem 'puma'
 end
