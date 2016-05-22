@@ -9,25 +9,25 @@
       color: $dark-grey;
     }
     &.one {
-      background: url('icon-nb1.svg') no-repeat left center;
+      background: image_url('icon-nb1.svg') no-repeat left center;
     }
     &.two {
-      background: url('icon-nb2.svg') no-repeat left center;
+      background: image_url('icon-nb2.svg') no-repeat left center;
     }
     &.three {
-      background: url('icon-nb3.svg') no-repeat left center;
+      background: image_url('icon-nb3.svg') no-repeat left center;
     }
     &.four {
-      background: url('icon-nb4.svg') no-repeat left center;
+      background: image_url('icon-nb4.svg') no-repeat left center;
     }
     &.five {
-      background: url('icon-nb5.svg') no-repeat left center;
+      background: image_url('icon-nb5.svg') no-repeat left center;
     }
     &.six {
-      background: url('icon-nb6.svg') no-repeat left center;
+      background: image_url('icon-nb6.svg') no-repeat left center;
     }
     &.seven {
-      background: url('icon-nb7.svg') no-repeat left center;
+      background: image_url('icon-nb7.svg') no-repeat left center;
     }
   }
 }

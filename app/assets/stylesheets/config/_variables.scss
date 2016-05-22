@@ -8,10 +8,10 @@ $base-font: "Work Sans", "Helvetica", "sans-serif";
 // Local fonts (uncomment following lines)
 @font-face {
   font-family: "Intro Black";
-  src: font-url('/assets/intro_black.eot');
-  src: font-url('/assets/intro_black.eot?#iefix') format('embedded-opentype'),
-       font-url('/assets/intro_black.woff') format('woff'),
-       font-url('/assets/intro_black.ttf') format('truetype')
+  src: font-url('intro_black.eot');
+  src: font-url('intro_black.eot?#iefix') format('embedded-opentype'),
+       font-url('intro_black.woff') format('woff'),
+       font-url('intro_black.ttf') format('truetype')
 }
 $header-font: "Intro Black";
 
