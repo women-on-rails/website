@@ -2,8 +2,7 @@ source 'https://rubygems.org'
 ruby '2.1.3'
 
 gem 'rails', '4.2.5.1'
-gem 'puma'
-gem 'pg'
+gem 'sqlite3'
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
 gem 'redis'
@@ -23,10 +22,11 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'spring'
-  
-  
+
+
 end
 
 group :production do
   gem 'rails_12factor'
+  gem 'pg'
 end
